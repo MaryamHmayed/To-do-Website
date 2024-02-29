@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+
+h1{
+    padding: 30px;
+    color:rgb(109, 31, 53);
+    text-align: center;
+    font-size: 50px;
+}
+h4{
+    color: white;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   background-color: black;
+   margin: 0px 500px;
+   height: 200px;
+   padding: 30px;
+
+}
+
+
+
+
+
+.login-button{
+    background-color:rgb(109, 31, 53) ;
+    color: white;
+    border-width: 2px;
+    font-size: large;
+    cursor: pointer;
+}
+.login-box{
+    
+  
+}
