@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-image: url(/Styles/assets/bg.jpg);
+    
    
     
 }
@@ -30,10 +31,11 @@ h4{
 
 
 
-button{
-    color:rgb(109,31,53) ;
+.login-button{
+    color:rgb(238, 228, 231) ;
     font-size: large;
     cursor: pointer;
+    background-image: none;
     background-color:rgb(109, 31, 53);
     
 }
