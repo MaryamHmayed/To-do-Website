@@ -13,6 +13,9 @@ addButton.addEventListener("click",function(){
     task.addEventListener("dblclick",function(){
         toDoContainer.removeChild(task)
     })
-
+    
+    task.addEventListener("click",function(){
+        task.style.textDecoration ="line-through";
+    })
 
 })
