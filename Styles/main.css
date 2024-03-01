@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;   
     box-sizing: border-box;
-    background-image: url(/Styles/assets/todo.jpg);
+    background-image: url(/Styles/assets/bg.jpg);
     
 }
 
@@ -17,16 +17,33 @@ h1{
     display: flex;
     justify-content: center;
     gap: 3px;
-    flex-wrap: wrap;
+   
+}
+.input{
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
+    vertical-align:middle;
+    font-size: 25px
 }
 
 button{
     cursor: pointer;
     border-radius: 3px;
-    width: 50px;
-    height: 30px;
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 30px;
+    vertical-align: middle;
+
+}
+.to-do-list{
+    text-align: center;
+    margin-top: 20px;
 }
 
-ul{
-    list-style-type: none;
-}    
+.task-styling{
+    cursor: pointer;
+    font-size: 25px;
+}
